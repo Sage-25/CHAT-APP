@@ -7,15 +7,6 @@
   padding-right: 2rem;
 }
 
-@media (max-width: 1155px) {
-  .main-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-  }
-}
-
 .phone-casing {
   width: 27rem;
   border: 1rem solid white;
@@ -230,10 +221,4 @@
 .main-body{
   line-height: 1.6rem;
   color: hsl(271, 15%, 43%);
-}
-
-@media (max-width: 1155px) {
-  .main-header-container {
-    width: 30rem;
-  }
 }
