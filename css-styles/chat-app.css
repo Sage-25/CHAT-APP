@@ -1,0 +1,239 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 30rem;
+  gap: 8rem;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1155px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+.phone-casing {
+  width: 27rem;
+  border: 1rem solid white;
+  border-radius: 3rem;
+  box-shadow: 0 2rem 2rem hsl(0, 2%, 89%);
+}
+
+.phone-header {
+  background-color: rgb(255, 255, 255);
+  width: 15rem;
+  height: 2rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  position: relative;
+  top: -56.6rem;
+  left: 6.2rem;
+}
+
+.mobile-view-implementation{
+  background-color: hsl(240, 6%, 97%);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 2.1rem;
+  border-bottom-left-radius: 2.1rem;
+}
+
+.header-container {
+  background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+  display: grid;
+  grid-template-columns: 1.8rem 1fr 1.5rem;
+  align-items: center;
+  padding: 3rem 1rem 1.5rem 1rem;
+  border-bottom-right-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.header-info {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  align-items: center;
+}
+
+.samuel-greens-avatar {
+  width: 3rem;
+  border-radius: 100%;
+  border: 0.2rem solid white;
+}
+
+.user-name {
+  color: white;
+  font-weight: 500;
+  margin-block-end: 0.2rem;
+}
+
+.work-time {
+  font-size: 0.8rem;
+  color: hsl(276, 100%, 81%);
+}
+
+/*this will indicate the body section*/
+.body-section {
+  margin-block-start: 1rem;
+}
+
+.text-left-first {
+  display: grid;
+  grid-template-columns: 18rem;
+  margin-block-end: 1rem;
+}
+
+.text-left-second {
+  display: grid;
+  grid-template-columns: 18rem;
+}
+
+.left-section-one,
+.left-section-two,
+.left-second-text {
+  padding: 1rem;
+  background-color: hsl(271, 62%, 93%);
+  color: hsl(264, 100%, 61%);
+  margin-inline-start: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.left-section-one,
+.left-second-text,
+.input-container {
+  margin-block-end: 1rem;
+}
+
+/*this is to indicate the text right*/
+.text-right {
+  margin-inline-end: 1rem;
+  display: grid;
+  grid-template-columns: 18rem;
+  justify-content: end;
+  text-align: right;
+  margin-block-end: 1rem;
+}
+
+.three-dog-images {
+  margin-block-end: 1rem;
+  text-align: end;
+}
+
+.dog-image {
+  width: 5rem;
+  border-radius: 1rem;
+  margin-right: 0.8rem;
+}
+
+/*this is for the right text section under text right*/
+.right-text-one-container,
+.right-text-two-container {
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(271, 36%, 24%);
+  margin-inline-start: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 0.2rem;
+  border-bottom-left-radius: 1rem;
+  box-shadow: 0 0.2rem 1rem hsl(276, 15%, 94%);
+}
+
+.right-text-two-container {
+  margin-block-start: 1rem;
+  display: inline-block;
+}
+
+/*this section is for the left second section*/
+.input-container-main {
+  display: grid;
+  margin-inline-start: 1rem;
+  grid-template-columns: 22rem;
+  margin-block-end: 1.5rem;
+}
+
+.input-container-one,
+.input-container-two {
+  padding: 1rem;
+  background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+  color: hsl(0, 0%, 100%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 0.2rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr 4rem;
+  align-items: center;
+  font-family: rubik;
+}
+
+.input-container-two {
+  margin-block-start: 1rem;
+}
+
+.time {
+  font-size: 0.8rem;
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.custom-radio-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+
+}
+
+/*this is the section for type a message fiedl*/
+.message-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  border-radius: 10rem;
+}
+
+.type-message-container {
+  font-family: rubik;
+  color: hsl(270, 7%, 64%);
+  padding-inline-start: 1.5rem;
+}
+
+.arrow-right {
+  background-color: hsl(271, 36%, 24%);
+  padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 30rem;
+}
+
+/*this section contains the main header container*/
+.main-header {
+  font-weight: 500;
+  font-size: 3rem;
+  color: hsl(271, 36%, 24%);
+  margin-bottom: 1.5rem;
+}
+
+.main-body{
+  line-height: 1.6rem;
+  color: hsl(271, 15%, 43%);
+}
+
+@media (max-width: 1155px) {
+  .main-header-container {
+    width: 30rem;
+  }
+}

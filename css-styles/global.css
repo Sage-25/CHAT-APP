@@ -1,0 +1,26 @@
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: rubik;
+}
+
+body {
+  background-color: hsl(270, 20%, 96%);
+  /*background-image: url(/image-container/gradient-background.svg);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: ;*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
