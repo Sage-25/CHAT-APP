@@ -7,10 +7,10 @@ h1 {
 
 body {
   background-color: hsl(270, 20%, 96%);
-  /*background-image: url(/image-container/gradient-background.svg);
+  background-image: url(/image-container/gradient-background.svg);
   background-repeat: no-repeat;
   background-size: 25%;
-  background-position: ;*/
+  background-position: ;
 }
 
 * {
